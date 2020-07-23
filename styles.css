@@ -1,0 +1,179 @@
+body {
+    width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+h1 {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards {
+    border: 3px solid darkgray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.color-container {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px 10px;
+    min-height: 150px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+.color-1 {
+    background-color: #D2B48C;
+    color: white;
+}
+.color-2 {
+    background-color: #66CDAA;
+    color: white;
+}
+.color-3 {
+    background-color: #A0522D;
+    color: white;
+}
+.color-4 {
+    background-color: #2F4F4F;
+    color: white;
+}
+.types {
+    display: inline-block;
+    width: 33%;
+    min-height: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.font-1 {
+    font-family: georgia;
+}
+.font-2 {
+    font-family: helvetica;
+}
+.font-3 {
+    font-family: monospace;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.btn {
+    width: 10%;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+.primary {
+    border: 2px blue solid;
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+}
+.primary:hover {
+    border: 2px blue solid;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+.secondary {
+    border: 2px gray solid;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+}
+.secondary:hover {
+    border: 2px gray solid;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+.success {
+    border: 2px green solid;
+    background-color: white;
+    color: green;
+    font-size: 15px;
+}
+.success:hover {
+    border: 2px green solid;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+.danger {
+    border: 2px red solid;
+    background-color: white;
+    color: red;
+    font-size: 15px;
+}
+.danger:hover {
+    border: 2px red solid;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+.warning {
+    border: 2px gold solid;
+    background-color: white;
+    color: gold;
+    font-size: 15px;
+}
+.warning:hover {
+    border: 2px gold solid;
+    background-color: gold;
+    color: white;
+    font-size: 15px;
+}
+.info {
+    border: 2px darkcyan solid;
+    background-color: white;
+    color: darkcyan;
+    font-size: 15px;
+}
+.info:hover {
+    border: 2px darkcyan solid;
+    background-color: darkcyan;
+    color: white;
+    font-size: 15px;
+}
+.light {
+    border: 2px whitesmoke solid;
+    background-color: white;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.light:hover {
+    border: 2px whitesmoke solid;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15px;
+}
+.dark {
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.dark:hover {
+    border: 2px black solid;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 15px;
+}
